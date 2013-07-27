@@ -132,7 +132,7 @@
 
 <div id="popup_play" class="reveal-modal small">
     <div class="header_bar">
-        <h3>Audio Player</h3>
+        <h3>Audio Players</h3>
     </div>
     <div id="login_container">
         <audio controls>
@@ -143,3 +143,4 @@
     </div>
 </div>
 </div><!-- END WRAPPER -->
+

@@ -43,7 +43,6 @@ class User extends CI_Controller{
             $data['songlist'] = $songList;
             $data = array('error' => $this->upload->display_errors());
             $data['main'] = 'success';
-           // $this->load->view('includes/template',$data);
             redirect('user/dashboard',$data);
         }
     }
