@@ -38,16 +38,23 @@
 |
 */
 $route['default_controller'] = 'home';
-//$route['(:any)'] = 'home/index/$1';
+//$route['(:any)'] = 'home/$1';
+//$route['home/(:any)'] = '$1';
+
+//$route['user/(:any)'] = 'user/$1';
+//$route['user'] = 'user';
+
+//$route['home'] = 'process/$1';
 
 
 //$route['user/(:any)'] = 'user/dashboard';
-$route['dashboard'] = 'dashboard';
-$route['user'] = 'user';
-
-$route['song_uploads'] = 'song_uploads/$1';
-$route['web'] = 'web';
-
-$route['404_override'] = '';
+//$route['user/(:any)'] = 'user/logout';
+//$route['dashboard'] = 'dashboard';
+////$route['user'] = 'user';
+//
+//$route['song_uploads'] = 'song_uploads/$1';
+//$route['web'] = 'web';
+//
+//$route['404_override'] = '';
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -64,6 +64,9 @@
 #socials a:link{
     color: black;
 }
+#tr{
+    display: table-row !important;
+}
 
 i:hover{
     color: #f86e6e;
@@ -279,6 +282,6 @@ th, td{
     font-family: 'Titillium Web', sans-serif;
 }
 
-#popup_song_list, #popup_upload_song, #popup_register, #popup_login{
+#popup_song_list, #popup_upload_song, #popup_register, #popup_login, #popup_video_list{
     background-image: url(../img/bg.png) ;
 }

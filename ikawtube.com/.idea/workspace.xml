@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c6aac87-c381-4852-b32b-e9a647e53b59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/yii-ikawtube.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/userModel.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/fail.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/includes/header.php" afterPath="$PROJECT_DIR$/application/views/includes/headers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/access_log" afterPath="$PROJECT_DIR$/logs/access_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/dashboard.php" afterPath="$PROJECT_DIR$/application/views/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error_log" afterPath="$PROJECT_DIR$/logs/error_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home.php" afterPath="$PROJECT_DIR$/application/views/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/includes/template.php" afterPath="$PROJECT_DIR$/application/views/includes/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/uploadModel.php" afterPath="$PROJECT_DIR$/application/models/uploadModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/user.php" afterPath="$PROJECT_DIR$/application/controllers/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../yii-ikawtube/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../yii-ikawtube/.idea/workspace.xml" />
     </list>
     <ignored path="ikawtube.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,18 +25,18 @@
     <file path="/a.dummy" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374385185774" ignored="false" />
     <file path="/HomeController.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374386895842" ignored="false" />
     <file path="/index.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374387546773" ignored="false" />
-    <file path="/.htaccess" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374390358551" ignored="false" />
+    <file path="/.htaccess" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374947020979" ignored="false" />
     <file path="/Dummy.txt" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374878791125" ignored="false" />
-    <file path="/home.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374392563023" ignored="false" />
-    <file path="/user.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374451374285" ignored="false" />
-    <file path="/header.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374539555197" ignored="false" />
+    <file path="/home.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374946768016" ignored="false" />
+    <file path="/user.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375199060384" ignored="false" />
+    <file path="/header.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374938089358" ignored="false" />
     <file path="/upload_model.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374423540770" ignored="false" />
-    <file path="/uploadModel.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374430197640" ignored="false" />
-    <file path="/dashboard.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374547303404" ignored="false" />
+    <file path="/uploadModel.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375197616133" ignored="false" />
+    <file path="/dashboard.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375199343849" ignored="false" />
     <file path="/success.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374424363714" ignored="false" />
-    <file path="/routes.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374424898294" ignored="false" />
+    <file path="/routes.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374946294601" ignored="false" />
     <file path="/circle.player.css" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374435316751" ignored="false" />
-    <file path="/main.css" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374450220270" ignored="false" />
+    <file path="/main.css" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375196727019" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/postUpdate.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374502049935" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/postAdd.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374498323764" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/postInfo.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374500258897" ignored="false" />
@@ -43,12 +48,24 @@
     <file path="/postCommentAdd.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374501386602" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/ajax.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374504665119" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374513494629" ignored="false" />
-    <file path="/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374808342069" ignored="false" />
+    <file path="/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375106444745" ignored="false" />
     <file path="/Applications/MAMP/htdocs/untitled folder/js/main.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374517335557" ignored="false" />
-    <file path="/main.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374518746894" ignored="false" />
-    <file path="/Applications/MAMP/htdocs/adblab4/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374808343050" ignored="false" />
-    <file path="/Applications/MAMP/htdocs/adblab4/js/main.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374519880106" ignored="false" />
-    <file path="/soundmanager2.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374539431341" ignored="false" />
+    <file path="/main.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375108163377" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375106602293" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/js/main.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375108274877" ignored="false" />
+    <file path="/soundmanager2.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374955012477" ignored="false" />
+    <file path="/userModel.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374940124206" ignored="false" />
+    <file path="$PROJECT_DIR$/../../darkroom/darkroom.com/application/config/routes.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374948297652" ignored="false" />
+    <file path="$PROJECT_DIR$/../../darkroom/darkroom.com/application/views/includes/header.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375192663103" ignored="false" />
+    <file path="$PROJECT_DIR$/../../soundmanager/index.html" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374956090812" ignored="false" />
+    <file path="$PROJECT_DIR$/../../soundmanager/js/soundmanager2.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374955061341" ignored="false" />
+    <file path="$PROJECT_DIR$/../../soundmanager/css/main.css" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374956169979" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/js/ryu.js" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1374974198221" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/xhr/postAdd.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375056314924" ignored="false" />
+    <file path="/postAdd.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375056314519" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/xhr/postInfo.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375059695902" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/adblab4/css/main.css" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375064029788" ignored="false" />
+    <file path="/headers.php" changelist="2c6aac87-c381-4852-b32b-e9a647e53b59" time="1375192806403" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,64 +93,10 @@
       <file leaf-file-name="dashboard.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5217391">
+            <state line="180" column="114" selection-start="7481" selection-end="7481" vertical-scroll-proportion="0.65217394">
               <folding>
-                <marker date="1374707125000" expanded="true" signature="4655:4660" placeholder="..." />
+                <marker date="1375199343000" expanded="true" signature="6154:6159" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="soundmanager2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/script/soundmanager2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="64" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="0" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myplaylist.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/myplaylist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="41" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,7 +104,7 @@
       <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="40" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
+            <state line="58" column="19" selection-start="1864" selection-end="1864" vertical-scroll-proportion="-9.291667">
               <folding />
             </state>
           </provider>
@@ -150,7 +113,61 @@
       <file leaf-file-name="uploadModel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/uploadModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="18" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/includes/headers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="54" selection-start="338" selection-end="338" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="33" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-17.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/userModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="32" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="10" selection-start="866" selection-end="866" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -174,21 +191,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/upload_model.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/views/success.php" />
-        <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/application/models/uploadModel.php" />
-        <option value="$PROJECT_DIR$/application/views/includes/headerr.php" />
-        <option value="$PROJECT_DIR$/web/css/circle.player.css" />
-        <option value="$PROJECT_DIR$/web/js/ciricle.player.js" />
         <option value="$PROJECT_DIR$/web/js/jquery.jplayer.min.js" />
         <option value="$PROJECT_DIR$/web/js/myplaylist.js" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/application/controllers/user.php" />
         <option value="$PROJECT_DIR$/web/script/soundmanager2.js" />
+        <option value="$PROJECT_DIR$/application/views/includes/header2.php" />
+        <option value="$PROJECT_DIR$/application/models/userModel.php" />
+        <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/includes/header.php" />
+        <option value="$PROJECT_DIR$/application/views/includes/template.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/application/views/includes/headers.php" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/application/controllers/user.php" />
+        <option value="$PROJECT_DIR$/application/models/uploadModel.php" />
         <option value="$PROJECT_DIR$/application/views/dashboard.php" />
       </list>
     </option>
@@ -272,25 +289,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="swf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ikawtube.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ikawtube.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,6 +391,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../soundmanager" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -452,10 +452,12 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17216642" sideWeight="0.67151767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17216642" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -463,11 +465,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -531,104 +531,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+    <entry file="file://$PROJECT_DIR$/application/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="129" selection-end="129" vertical-scroll-proportion="-6.25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="39" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-23.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/fail.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/foundation.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.024752475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/uploadModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="186.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="41" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
+        <state line="39" column="0" selection-start="1393" selection-end="1393" vertical-scroll-proportion="-17.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/myplaylist.js">
+    <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+        <state line="44" column="51" selection-start="1353" selection-end="1382" vertical-scroll-proportion="-27.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="0" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.0">
+        <state line="67" column="33" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-17.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/foundation.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3342" column="13" selection-start="164777" selection-end="164782" vertical-scroll-proportion="-0.12481858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="54" selection-start="338" selection-end="338" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/userModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="119" selection-end="119" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/uploadModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="18" selection-start="405" selection-end="405" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="866" selection-end="866" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/soundmanager2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="64" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="58" column="19" selection-start="1864" selection-end="1864" vertical-scroll-proportion="-9.291667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5217391">
+        <state line="180" column="114" selection-start="7481" selection-end="7481" vertical-scroll-proportion="0.65217394">
           <folding>
-            <marker date="1374707125000" expanded="true" signature="4655:4660" placeholder="..." />
+            <marker date="1375199343000" expanded="true" signature="6154:6159" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -42,11 +42,11 @@
         <h3>LOGIN</h3>
     </div>
     <div id="login_container">
-        <form action="/user/dashboard" class="login" enctype="multipart/form-data" method="post">
+        <form action="/home/process" class="login" enctype="multipart/form-data" method="post">
             <h6>Username:</h6>
-            <input type="text" class="username" name="username" value="Username">
+            <input type="text" class="username" name="username" value="test">
             <h6>Password:</h6>
-            <input type="password" class="password" name="password" value="Password">
+            <input type="password" class="password" name="password" value="test">
             <br />
             <input type="submit" name="submit" value="Login"> <a href="#" data-reveal-id="popup_register">Register!</a>
         </form>
@@ -60,15 +60,15 @@
         <h3>Register</h3>
     </div>
     <div id="register_container">
-        <form action="#" id="register" enctype="multipart/form-data" method="post">
+        <form action="/home/perform_register" id="register" enctype="multipart/form-data" method="post">
             <h6>Username:</h6>
-            <input type="text" class="username" name="username" value="Username">
+            <input type="text" class="username" name="username" placeholder="Username">
             <h6>Password:</h6>
-            <input type="password" class="password" name="password" value="Password">
+            <input type="password" class="password" name="password" placeholder="Password">
             <h6>Confirm Password:</h6>
-            <input type="password" class="confirm_password" name="password" value="Password">
+            <input type="password" class="confirm_password" name="password" placeholder="Password">
             <h6>Email:</h6>
-            <input type="email" class="email" name="email" value="email@email.com">
+            <input type="email" class="email" name="email" placeholder="email@email.com">
             <h6>Confirm Email:</h6>
             <input type="email" class="confirm_email" name="confirm_email" value="">
             <h6>Date of Birth:</h6>

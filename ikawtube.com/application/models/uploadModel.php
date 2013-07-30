@@ -13,4 +13,15 @@ class UploadModel extends CI_Model{
         $query = $this->db->query('select * from songs');
         return $query;
     }
+
+    public function insert_video($videofile){
+        $data = array(
+            'file'=>$videofile,
+        );
+        $this->db->insert('videos',$data);
+    }
+    function getVideoList(){
+        $query = $this->db->query('select * from videos');
+        return $query;
+    }
 }

@@ -12,10 +12,10 @@ Options +FollowSymLinks
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# For reuests that are not actual files or directories,
+# For requests that are not actual files or directories,
 # Rewrite to index.php/URL
 RewriteRule ^(.*)$ index.php/$1 [PT,L]
 
-php_value memory_limit 40M
-php_value post_max_size 40M
-php_value upload_max_filesize 40M
+php_value memory_limit 200M
+php_value post_max_size 200M
+php_value upload_max_filesize 200M
