@@ -47,6 +47,13 @@
     letter-spacing: -1.5px;
     float: right;
 }
+#logged_nav{
+    clear: both;
+    font-family: 'Titillium Web', sans-serif;
+    list-style: none;
+    letter-spacing: -1.5px;
+    float: right;
+}
 
 #nav_login:visited{
     color: cadetblue;
@@ -86,6 +93,22 @@ i:hover{
     color: cadetblue;
 }
 #top_nav li a:hover{
+    color: #f86e6e;
+    transition: color 0.4s ease-in-out;
+}
+#logged_nav li{
+    float:left;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logged_nav li a{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: cadetblue;
+}
+#logged_nav li a:hover{
     color: #f86e6e;
     transition: color 0.4s ease-in-out;
 }
@@ -242,6 +265,17 @@ a:link {
     font-family: 'Titillium Web', sans-serif;
     color: cadetblue;
 }
+.confirmation{
+    padding-top: 0;
+    clear: both;
+    width: 60%;
+    margin-left: 25%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.confirmation h6{
+    font-family: 'Titillium Web', sans-serif;
+    color: cadetblue;
+}
 
 #song_list .login input{
     color: #c0c0c0;
@@ -282,6 +316,43 @@ th, td{
     font-family: 'Titillium Web', sans-serif;
 }
 
-#popup_song_list, #popup_upload_song, #popup_register, #popup_login, #popup_video_list{
+#popup_song_list, #popup_upload_song, #popup_register, #popup_login, #popup_video_list,#popup_upload_video,#popup_edit_song,#popup_edit_video{
     background-image: url(../img/bg.png) ;
+}
+
+#confirm_buttons{
+    float: left;
+    margin-left: 27%;
+
+}
+
+.taken{
+    display: none;
+    padding: 0.375em 0.25em;
+    margin-top: -14px;
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: #c60f13;
+    color: white;
+}
+
+.errors{
+    display: block;
+    padding: 0.375em 0.25em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: #c60f13;
+    color: white;
+}
+
+#welcome{
+    margin-top: -25px;
+    float: left;
+    margin-left: 70%;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
 }

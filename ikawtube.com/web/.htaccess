@@ -19,3 +19,8 @@ RewriteRule ^(.*)$ index.php/$1 [PT,L]
 php_value memory_limit 200M
 php_value post_max_size 200M
 php_value upload_max_filesize 200M
+
+AddType video/quicktime .qt .mov
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm

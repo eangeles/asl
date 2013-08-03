@@ -5,24 +5,35 @@ class User extends CI_Controller{
     function __construct(){
         parent::__construct();
         $this->load->helper(array('form', 'url'));
+        $this->authenticate();
     }
 
     function dashboard(){
         $this->load->library('upload');
         $this->load->model('uploadModel');
         $songList = $this->uploadModel->getSongList();
-        $song = $songList->result();
+
+        $uid = $this->session->userdata('userId');
+        $username = $this->session->userdata('username');
 
         $videoList = $this->uploadModel->getVideoList();
-        $video = $videoList->result();
 
         $data['error'] = $this->upload->display_errors();
-        $data['song'] = $song;
+        $data['username'] = $username;
+        $data['userId'] = $uid;
         $data['songlist'] = $songList;
-        $data['video'] = $video;
+
         $data['videoList'] = $videoList;
         $data['main'] = 'dashboard';
         $this->load->view('includes/template',$data);
+    }
+
+    function authenticate()
+    {
+        if (!$this->session->userdata('is_logged_in'))
+        {
+            redirect('/');
+        }
     }
 
     //logout
@@ -45,11 +56,10 @@ class User extends CI_Controller{
         }else{
             $this->load->model('uploadModel');
             $songList = $this->uploadModel->getSongList();
-            $song = $songList->result();
+
             $data = $this->upload->data();
             $this->uploadModel->insert_song($data['file_name']);
 
-            $data['song'] = $song;
             $data['songlist'] = $songList;
             $data = array('error' => $this->upload->display_errors());
             $data['main'] = 'success';
@@ -58,7 +68,8 @@ class User extends CI_Controller{
     }
     function upload(){
         $config['upload_path'] = './video_uploads/';
-        $config['allowed_types'] = 'mp3|m4a|flv|mp4|mov';
+        $config['allowed_types'] = 'ogg|ogv|mp4|mov';
+        $config['max_size'] = 200000000;
 
         $this->load->library('upload',$config);
         $data['error'] = $this->upload->display_errors();
@@ -66,15 +77,18 @@ class User extends CI_Controller{
         if(!$this->upload->do_upload()){
             $data = array('error' => $this->upload->display_errors());
             $data['main'] = 'dashboard';
+            echo 'fail';
             $this->load->view('includes/template', $data);
         }else{
             $this->load->model('uploadModel');
             $videoList = $this->uploadModel->getVideoList();
-            $video = $videoList->result();
+
             $data = $this->upload->data();
             $this->uploadModel->insert_video($data['file_name']);
 
-            $data['video'] = $video;
+            $uid = $this->session->userdata('userId');
+
+            $data['id'] == $uid;
             $data['videoList'] = $videoList;
             $data = array('error' => $this->upload->display_errors());
             $data['main'] = 'success';
@@ -82,5 +96,42 @@ class User extends CI_Controller{
         }
     }
 
+    //delete songs
+    function deleteSong(){
+
+        $this->load->model('deleteModel');
+
+        $this->deleteModel->songDelete();
+
+        header('Location: http://ikawtube.com/user/dashboard');
+    }
+    //delete songss
+    function deleteVideo(){
+
+        $this->load->model('deleteModel');
+
+        $this->deleteModel->videoDelete();
+
+        header('Location: http://ikawtube.com/user/dashboard');
+
+    }
+
+    function update(){
+        $this->load->model('updateModel');
+        $this->load->library('upload');
+
+
+        $this->updateModel->updateSongInfo();
+          header('Location: http://ikawtube.com/user/dashboard');
+
+    }
+    function updateVideo(){
+        $this->load->model('updateModel');
+        $this->load->library('upload');
+
+
+        $this->updateModel->updateVideoInfo();
+        header('Location: http://ikawtube.com/user/dashboard');
+    }
 
 }

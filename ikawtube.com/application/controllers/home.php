@@ -24,15 +24,13 @@ class Home extends CI_Controller{
         //verify the result
         if(!$result){
             //if user did not validate, go back to login
-            echo 'error';
-            $error = '<p class="login_error">Invalid username and/or password.</p>';
+
+            $error = '<p class="errors">Invalid username and/or password.</p>';
             $this->index($error);
         }else{
-//            $data['main'] = 'dashboard';
-//            $this->load->view('includes/template', $data);
-            //echo 'success';
+
             header('Location: http://ikawtube.com/user/dashboard');
-            //redirect('user/dashboard');
+
         }
     }
 
@@ -58,5 +56,4 @@ class Home extends CI_Controller{
             }
         }
     }
-
 }
